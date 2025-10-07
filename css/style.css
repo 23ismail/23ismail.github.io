@@ -2,7 +2,8 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-image: url(../img/sfondo.png);
+    background-image: url(../img/sfondo_sito.jpg);
+    background-size: cover;
 }
 
 header h1 {
@@ -46,13 +47,13 @@ div {
 }
 
 button, .link-btn {
-    background: #07141a;
+    background: #000000;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     margin-top: 15px;
-    border-radius: 5px;
+    border-radius: 50px;
     text-decoration: none;
     display: inline-block;
     text-shadow: 1px 1px 5px rgba(255, 255, 255);
@@ -91,11 +92,11 @@ button:hover, .link-btn:hover {
 .sezione-riquadro {
     
     max-width: 800px;
-    margin: 30px auto;
-    padding: 30px;
+    margin: 140px auto;
+    padding: 50px;
 
-    border: 4px solid #000000;
-    border-radius: 100px; 
+    border: 15px solid #000000;
+    border-radius: 200px; 
 
     box-shadow: 0 4px 8px rgba(27, 22, 22, 0.1);
 
@@ -105,8 +106,30 @@ button:hover, .link-btn:hover {
 }
 
 .sezione-riquadro p {
+    font: size 1000px;
+    color: #000000;
+    
+}
+
+.riquadro-audi {
+    
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 50px;
+
+    border: 5px solid #000000;
+    border-radius: 200px; 
+
+    box-shadow: 0 4px 8px rgba(27, 22, 22, 0.1);
+
+    text-align: center; 
+    line-height: 2.0; 
+    background-color: white;
+}
+
+.riquadro-audi p {
     font-size: 1.1em;
-    color: #333;
+    color: #000000;
     
 }
 
@@ -188,5 +211,91 @@ html{
     
     .dropdown-content {
         position: static;
+    }
+}
+
+/* === TABELLA AUDI === */
+.tabella-audi {
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+.tabella-audi h2 {
+    color: #0d3b66;
+    margin-bottom: 40px;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Contenitore per lo scroll su mobile */
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+}
+
+/* Tabella */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.table-container th {
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.table-container td {
+    padding: 25px 15px;
+    text-align: center;
+    vertical-align: top;
+    border-top: 2px solid #007acc;
+}
+
+.table-container td img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.table-container td img:hover {
+    transform: scale(1.05);
+}
+
+.table-container h3 {
+    margin: 10px 0 5px 0;
+    color: #0d3b66;
+}
+
+.table-container p {
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+    .table-container table {
+        font-size: 0.9em;
+    }
+
+    .table-container td img {
+        width: 120px;
+    }
+
+    .tabella-audi h2 {
+        font-size: 1.6em;
     }
 }
