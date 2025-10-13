@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isma History Car</title>
-    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -14,11 +14,9 @@
     <nav>
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="menu-icon">☰</label>
-    
+
         <ul class="menu">
             <li><a href="#"><strong>HOME</strong></a></li>
-            <li><a href="html/storia.html"><strong>STORIA</strong></a></li>
-    
             <li class="dropdown">
                 <a href="#auto"><strong>AUTO ▼</strong></a>
                 <ul class="dropdown-content">
@@ -29,53 +27,62 @@
                     <li><a href="html/porsche.html">Porsche</a></li>
                 </ul>
             </li>
-    
             <li><a href="html/contatti.html"><strong>CONTATTI</strong></a></li>
         </ul>
     </nav>
-    
 
-    <div id="descrizione">
+    <section id="descrizione">
         <div class="sezione-riquadro">
-            <p> <strong> Benvenuto su ISMA HISTORY CAR. <br/>
-            Scopri la storia di 10 Case automobilistiche leggendarie come Porsche, Bugatti e Rolls-Royce. <br/>
-            Ti guideremo attraverso la fondazione, l'evoluzione e, soprattutto, i tre modelli iconici che rappresentano ogni brand.<br/>
-            Dalla precisione tedesca di Audi e BMW, all'eccellenza italiana di Ferrari e Lamborghini.</strong>
+            <p>
+                <strong>
+                    Benvenuto su ISMA HISTORY CAR.<br>
+                    Scopri la storia di 5 case automobilistiche leggendarie come Porsche, Lamborghini e Ferrari.<br>
+                    Ti guideremo attraverso la fondazione, l'evoluzione e i modelli iconici che rappresentano ogni brand.<br>
+                    Dalla precisione tedesca di Audi e Mercedes, all'eccellenza italiana di Ferrari e Lamborghini.
+                </strong>
             </p>
-            <a href="#auto" class="link-btn">Scopri</a>
+            
+        </div>
+    </section>
+    <div id="storia">
+        <div class="sezione-riquadro">
+            <h2>La Storia delle Auto</h2>
+            <p>Dalle linee aggressive di Lamborghini all'eleganza di Mercedes. <br/> 
+            Ripercorri l'evoluzione dei 5 marchi selezionati da me, scoprendo le filosofie di design <br/>
+            e le svolte tecnologiche che hanno permesso loro di creare i veicoli più desiderati al mondo.
+            </p>
+            <a href="../index.html/#auto" class="link-btn">Vedi i Marchi</a>
         </div>
     </div>
 
-    <div id="auto">
-        <h2>Le Nostre Auto</h2>
+    <section id="auto">
+        <h2>AUTO:</h2>
         <div class="auto-gallery">
             <div class="auto-card">
-                <img src="../img/audi.png" alt="AUDI" width="200px" height="auto">
+                <img src="../img/audi.png" alt="Audi">
                 <a href="html/audi.html" class="link-btn">AUDI</a>
             </div>
             <div class="auto-card">
-                <img src="../img/mercedes.png" alt="MERCEDES" width="200px" height="auto">
+                <img src="../img/mercedes.png" alt="Mercedes">
                 <a href="html/mercedes.html" class="link-btn">MERCEDES</a>
             </div>
             <div class="auto-card">
-                <img src="../img/ferrari.svg" alt="Ferrari" width="150px" height="auto">
+                <img src="../img/ferrari.svg" alt="Ferrari">
                 <a href="html/ferrari.html" class="link-btn">FERRARI</a>
             </div>
             <div class="auto-card">
-                <img src="../img/lamborghini.svg" alt="LAMBORGHINI" width="180px" height="auto">
+                <img src="../img/lamborghini.svg" alt="Lamborghini">
                 <a href="html/lamborghini.html" class="link-btn">LAMBORGHINI</a>
             </div>
-            <br>
             <div class="auto-card">
-                <img src="../img/porsche.png" alt="PORSCHE" width="160px" height="auto">
+                <img src="../img/porsche.png" alt="Porsche">
                 <a href="html/porsche.html" class="link-btn">PORSCHE</a>
             </div>
-            
-            
-            
-            
         </div>
-    </div>
+    </section>
 
+    <footer>
+        <p>© 2025 ISMA HISTORY CAR | Tutti i diritti riservati</p>
+    </footer>
 </body>
 </html>
