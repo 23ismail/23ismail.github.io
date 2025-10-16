@@ -103,7 +103,6 @@ nav {
     }
 }
 
-/* --- SEZIONI CENTRALI SISTEMATE --- */
 .sezione-riquadro {
     max-width: 900px;
     margin: 30px auto;
@@ -126,10 +125,9 @@ nav {
 }
 
 #storia {
-    margin-top: -40px; /* elimina spazio vuoto tra le due sezioni */
+    margin-top: -40px; 
 }
 
-/* --- BOTTONE --- */
 .link-btn {
     background: #000;
     color: white;
@@ -145,7 +143,6 @@ nav {
     background: #0a87bc;
 }
 
-/* --- GALLERIA AUTO SISTEMATA --- */
 #auto {
     text-align: center;
     padding: 60px 20px;
@@ -192,7 +189,6 @@ nav {
     }
 }
 
-/* --- FOOTER --- */
 footer {
     background: #222;
     color: white;
@@ -382,7 +378,6 @@ html {
     }
 }
 
-/* --- INTRO AUDI --- */
 .intro-audi {
     text-align: center;
     margin: 60px auto 40px auto;
@@ -415,7 +410,6 @@ html {
     font-size: 1.05em;
 }
 
-/* --- RIQUADRI STORICI AUDI (4 BOX) --- */
 .history-points-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
