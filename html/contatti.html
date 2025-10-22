@@ -42,20 +42,29 @@
                 Apprezzo il tuo interesse per il sito ISMA HISTORY CAR. <br>
                 Se hai domande sui contenuti, o desideri condividere la tua passione per le auto storiche, non esitare a scrivermi.
             </strong></p>
+        </div>
+            <section class="sezione-riquadro">
+                <h2>Compila il modulo qui sotto per inviarmi un messaggio:</h2>
 
-            <div class="contact-section">
-                <h2 class="contact-title">Inviami una Email</h2>
-                <div class="info-item">
-                    <p class="email-address">
-                        <a href="mailto:20304@studenti.marconiverona.edu.it">
-                            20304@studenti.marconiverona.edu.it
-                        </a>
-                    </p>
-                </div>
-                <p class="response-time">Rispondo solitamente entro 48 ore.</p>
-            </div>
+                <form class="contact-form" action="https://formspree.io/f/xyznqjod" method="post">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
 
-            </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messaggio">Messaggio:</label>
+                        <textarea id="messaggio" name="messaggio" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="link-btn">Invia Messaggio</button>
+                </form>
+            </section>
     </main>
     
     <footer>
